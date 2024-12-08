@@ -15,4 +15,6 @@ Vículos de las tecnologías:
 
 Aquí dejo un ejemplo de uno de mis ejercicios hechos en clase, donde se debían colocar dos primitivos, una entidad de texto y un entorno/ambiente:  
 
-![Ejercicio de enetorno/ambiente en A-Frame](/hola_html/assets/ejemploparaREADME.png "Entorno")
+![Ejercicio de enetorno/ambiente en A-Frame](/hola_html/assets/ejemploparaREADME.png "Entorno")  
+
+![Código del ejercicio entorno/ambiente](/hola_html/assets/codigodelejemplo.png "Entorno: código")
