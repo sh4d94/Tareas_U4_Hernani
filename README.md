@@ -22,4 +22,4 @@ Aquí dejo un ejemplo de uno de mis ejercicios de A-Frame hechos en clase, donde
 
 Y aquí cómo se ve mi README:  
 
-![README con markdown](/hola_html/assets/READMEconMarkdown3.png "README")
+![README con markdown](/hola_html/assets/READMEconMarkdown4.png "README")
