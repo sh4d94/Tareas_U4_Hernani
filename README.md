@@ -13,6 +13,6 @@ Vículos de las tecnologías:
 [Visual Studio Code](https://code.visualstudio.com/)  
 [Blender](https://www.blender.org/)  
 
-Aquí dejo un ejemplo de uno de mis ejercicios hechos en clase:  
+Aquí dejo un ejemplo de uno de mis ejercicios hechos en clase, donde se debían colocar dos primitivos, una entidad de texto y un entorno/ambiente:  
 
 ![Ejercicio de enetorno/ambiente en A-Frame](/hola_html/assets/ejemploparaREADME.png "Entorno")
