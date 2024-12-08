@@ -2,7 +2,7 @@
 ## UEA 4: Estética y prácticas del arte contemporáneo.
 ## Unidad 3: Tecnología.
 ### Licenciatura en Arte y Comunicaicón Digitales.
-#### sh4d94  
+#### sh4d - Hann Ortega.  
 
 En este repo se encuentran las tareas de la UEA 4, apartado tecnológico, impartido por _Hernani Villaseñor Ramírez_. Durante estas semanas el profesor nos ha ayudado a construir nuestros conocimientos en _WebVR_ y _lenguaje HTML_ con ayuda de los software: **Visual Studio Code (VSC)** y la bilbioteca **A-Frame**. Todos los ejercicios se suben a **GitHub** por medio de la terminal de VSC y, en mi caso, se visualizan en este repositorio.
 
