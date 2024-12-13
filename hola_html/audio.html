@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonido</title>
+    <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    <script>
+        AFRAME.registerComponent('ControlAudio', {
+            init: function() {
+                let cotonControl= this.el;
+                botonControl.addEventListener('click', function(ev){
+                    let metodo = ev.srcElement.id;
+
+                    console.log(metodo);
+                    
+                    let bocina = document.querySelector('#paisaje');
+
+                        if(metodo == "play"){
+                            bocina.components.sound.playsound();
+                        }
+
+                        if(metodo == "pause"){
+                            bocina.components.sound.pausesound();
+                        }
+                        if(metodo == "stop"){
+                            bocina.components.sound.stopsound();
+                        }
+                    })
+                 }
+        });    
+    </script>
+</head>
+<body>
+    <a-scene>
+        <!--sistema de gestión de assets-->
+        <a-assets>
+            <audio id="RuidoBlanco" src="assets/audio/RuidoBlanco.mp3" preload="auto"></audio>
+        </a-assets>
+        
+        <!--jugador-->
+        <a-camera>
+            <a-cursor></a-cursor>
+        </a-camera>
+        <a-entity id="RuidoBlanco" geometry="primitive: plane" material="color: green" position="0 4.45837 -4" sound="autoplay: true; on: click; src: assets/audio/RuidoBlanco.mp3" scale="2.51202 2.41291 4.59347"></a-entity>
+          
+
+        <!--Textos-->
+        <a-text 
+        value="Sound Effect by freesound_community from Pixabay"
+        font="assets/fonts/abecedario-msdf/abecedario-msdf.json"
+        font-image="assets/fonts/abecedario-msdf/abecedario.png"
+        negate="false"
+        scale="2 2 1"
+        position="-5 2.44831 -4.00569"
+        color="black"></a-text>
+
+        <!--Controles-->
+        <a-box position="1.90493 0.5 -3" rotation="0 45 0" color="blue"></a-box>
+        <a-box position="-2.02486 0.5 -3" rotation="0 45 0" color="yellow"></a-box>
+        <a-box position="-0.01247 0.5 -3" rotation="0 45 0" color="red"></a-box>
+    </a-scene>
+</body>
+</html>
